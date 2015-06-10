@@ -1,0 +1,18 @@
+{
+  "name": "martians-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/martian.js",
+    "watch": "./node_modules/mocha/bin/mocha --watch-extensions js -w ./test/martian.js",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^0.8.5",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
